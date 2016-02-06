@@ -1,0 +1,17 @@
+#dday {
+	font-weight: bold;
+	background-color: rgb(255,255,0);
+}
+#calendarmonth{
+	background-color: rgb(173,216,230);
+	text-align: center;
+	font-weight: bold;
+	padding: 8px;
+}
+th {
+	padding: 8px;
+}
+td {
+	padding: 8px;
+	text-align: center;
+}

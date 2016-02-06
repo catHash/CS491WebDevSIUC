@@ -1,0 +1,74 @@
+body {
+	width: 950px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 10px;
+	font-family: Verdana;
+	box-shadow: 0 0 10px 10px #888;
+}
+h1 {
+	box-shadow: 10px 10px 5px #888;
+	text-align: center;
+	padding: 10px;
+	background-color: #660000;
+	color: white;
+}
+h2 {
+	color: gray;
+	border-bottom-style: dotted;
+	padding: 10px;
+	font-size: 35px;
+	font-family: Agency FB;
+}
+h3 {
+	color: #660000;
+}
+ul {
+	color: gray;
+}
+a:link {
+	text-decoration: none;
+	color: gray;
+}
+a:visited {
+	text-decoration: none;
+	color: gray;
+}
+a:active {
+	text-decoration: none;
+	color: gray;
+}
+a:hover {
+	text-decoration: none;
+	color: red;
+	font-weight: bold;
+}
+details:hover {
+	background-color: lightgray;
+}
+p.sumfirst{
+	margin-left:20px;
+	padding:5px;
+}
+p.sumsecond{
+	margin-left:20px;
+	padding:5px;
+	font-style:italic;
+}
+p.advisor{
+	text-align: center;
+	background-color: #d5e3ff;
+	padding:20px;
+	font-size:12px;
+}
+summary {
+	box-shadow: 0 0 5px #888;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 2px;
+	color: #660000;
+	font-weight: bold;
+}

@@ -1,0 +1,38 @@
+#div1 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: 200px 200px;
+	box-shadow: 0 0 5px 5px #888;
+	background-color: black;
+	color: white;  
+	animation: myfirst 5s;
+	-webkit-animation: myfirst 5s; /* Safari and Chrome */
+	position:relative;
+}
+
+#div1 img {
+	width: 100%;
+}
+
+#div1 h3{
+	margin-top: -5px;  
+	text-align: center;
+	padding: 5px;
+}
+
+@keyframes myfirst {
+	0%  {background: black; left:0px; top:0px;}
+	25%  {background: red; left:400px; top:0px;}
+	50%  {background: yellow; left:400px; top:400px;}
+	75%  {background: blue; left:0px; top:400px;}
+	100% {background: black; left:0px; top:0px;}
+}
+
+@-webkit-keyframes myfirst { /* Safari and Chrome */
+	0%   {background: black; left:0px; top:0px;}
+	25%  {background: red; left:400px; top:0px;}
+	50%  {background: yellow; left:400px; top:400px;}
+	75%  {background: blue; left:0px; top:400px;}
+	100% {background: black; left:0px; top:0px;}
+}

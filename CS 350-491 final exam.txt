@@ -1,0 +1,466 @@
+Quiz
+Note: It is recommended that you save your response as you complete each question.
+Question 1 (1 point) Question 1 Saved
+An XML document that employs the correct syntax is known as a well-made document.
+
+Question 1 options:
+	A) True
+	B) False
+Save
+Question 2 (1 point) Question 2 Saved
+Some XML documents must also include a single root element that contains all other elements.
+
+Question 2 options:
+	A) True
+	B) False
+Save
+Question 3 (1 point) Question 3 Saved
+To specify what the correct content and structure is for a document, the developers of an XML-based language can create a collection of rules called the schema. 
+
+Question 3 options:
+	A) True
+	B) False
+Save
+Question 4 (1 point) Question 4 Unsaved
+XML has been used to create several markup languages, including MathML and CML. 
+
+Question 4 options:
+	A) True
+	B) False
+Save
+Question 5 (1 point) Question 5 Unsaved
+The source code for PHP can be viewed in the client browser.
+
+Question 5 options:
+	A) True
+	B) False
+Save
+Question 6 (1 point) Question 6 Unsaved
+All Web pages containing PHP code must have an extension of .php.
+
+Question 6 options:
+	A) True
+	B) False
+Save
+Question 7 (1 point) Question 7 Unsaved
+A cooki is a key/name pair.
+
+Question 7 options:
+	A) True
+	B) False
+Save
+Question 8 (1 point) Question 8 Unsaved
+To create a shopping cart we need to use sessions in PhP.
+
+Question 8 options:
+	A) True
+	B) False
+Save
+Question 9 (1 point) Question 9 Unsaved
+You must use the global keyword to reference a global variable within the scope of a function.
+
+Question 9 options:
+	A) True
+	B) False
+Save
+Question 10 (1 point) Question 10 Unsaved
+When using the variable name as an index for the $GLOBALS array, you omit the leading dollar sign from the name.
+
+Question 10 options:
+	A) True
+	B) False
+Save
+Question 11 (1 point) Question 11 Unsaved
+The escape sequence \\ inserts a comment.
+
+Question 11 options:
+	A) True
+	B) False
+Save
+Question 12 (1 point) Question 12 Unsaved
+Functions are placed within parentheses that follow a parameter name.
+
+Question 12 options:
+	A) True
+	B) False
+Save
+Question 13 (1 point) Question 13 Unsaved
+Variable scope refers to the location that a declared variable can be used.
+
+Question 13 options:
+	A) True
+	B) False
+Save
+Question 14 (1 point) Question 14 Unsaved
+If you attempt to use a local variable outside the function in which it is declared, you receive an error message.
+
+Question 14 options:
+	A) True
+	B) False
+Save
+Question 15 (1 point) Question 15 Unsaved
+Global variables are automatically available to all parts of your program, including functions.
+
+Question 15 options:
+	A) True
+	B) False
+Save
+Question 16 (1 point) Question 16 Unsaved
+A function must return a value.
+
+Question 16 options:
+	A) True
+	B) False
+Save
+Question 17 (1 point) Question 17 Unsaved
+$_ABC1 is a valid variable identifier.
+
+Question 17 options:
+	A) True
+	B) False
+Save
+Question 18 (1 point) Question 18 Unsaved
+A text string can be contained in either double or single quotation marks.
+
+Question 18 options:
+	A) True
+	B) False
+Save
+Question 19 (1 point) Question 19 Unsaved
+In PHP programming, you can only use TRUE or FALSE to indicate Boolean values.
+
+Question 19 options:
+	A) True
+	B) False
+Save
+Question 20 (1 point) Question 20 Unsaved
+The file_write_contents() function writes a text string as a file.
+
+Question 20 options:
+	A) True
+	B) False
+Save
+Question 21 (1 point) Question 21 Unsaved
+Both the echo() and print() statements send data to an input stream.
+
+Question 21 options:
+	A) True
+	B) False
+Save
+Question 22 (1 point) Question 22 Unsaved
+You use the fopen() function to open a handle to a file stream.
+
+Question 22 options:
+	A) True
+	B) False
+Save
+Question 23 (1 point) Question 23 Unsaved
+The a+ mode argument opens the specified file for reading only and places the file pointer at the beginning of the file.
+
+Question 23 options:
+	A) True
+	B) False
+Save
+Question 24 (1 point) Question 24 Unsaved
+When you are finished with a file stream, you use the statement fopen($handle); to ensure that the file doesn’t keep consuming space in your computer’s memory.
+
+Question 24 options:
+	A) True
+	B) False
+Save
+Question 25 (1 point) Question 25 Unsaved
+You can use the fwrite() function to incrementally write data to a text file.
+
+Question 25 options:
+	A) True
+	B) False
+Save
+Question 26 (1 point) Question 26 Unsaved
+You would use the file_put_contents() function to quickly replace the contents of a file or append data to the end of an existing file.
+
+Question 26 options:
+	A) True
+	B) False
+Save
+Question 27 (1 point) Question 27 Unsaved
+To prevent multiple users from modifying a file simultaneously, you need to use the file_lock() function.
+
+Question 27 options:
+	A) True
+	B) False
+Save
+Question 28 (1 point) Question 28 Unsaved
+When a form is posted, information from the uploaded file is stored in the ____ autoglobal array.
+
+Question 28 options:
+	
+A) 	
+$_FILES[]
+
+	
+B) 	
+$_UPLOAD[]
+
+	
+C) 	
+FILE_UPLOAD[]
+
+	
+D) 	
+UPLOAD_FILES[]
+
+Save
+Question 29 (1 point) Question 29 Unsaved
+The ____ function writes a text string and creates the file if it does not exist.
+
+Question 29 options:
+	
+A) 	
+file_write_contents()
+
+	
+B) 	
+file_create_contents()
+
+	
+C) 	
+file_put_contents()
+
+	
+D) 	
+file_make_contents()
+
+Save
+Question 30 (1 point) Question 30 Unsaved
+When a text file contains a single block of text, the ____ function would read the entire contents of the file into a string.
+
+Question 30 options:
+	
+A) 	
+file_read_contents()
+
+	
+B) 	
+file_open_contents()
+
+	
+C) 	
+file_extract_contents()
+
+	
+D) 	
+file_get_contents()
+
+Save
+Question 31 (1 point) Question 31 Unsaved
+The ____ function reads the contents of a text file that stores each individual line as an element of an indexed array.
+
+Question 31 options:
+	
+A) 	
+file()
+
+	
+B) 	
+get_file()
+
+	
+C) 	
+read_file()
+
+	
+D) 	
+open_file()
+
+Save
+Question 32 (1 point) Question 32 Unsaved
+Using a value of ____ for the mode argument of the fopen() function opens the specified file for reading and writing and places the file pointer at the end of the file.
+
+Question 32 options:
+	
+A) 	
+w
+
+	
+B) 	
+r
+
+	
+C) 	
+r+
+
+	
+D) 	
+a+
+
+Save
+Question 33 (1 point) Question 33 Unsaved
+When you are finished working with a file stream, you use the ____ function to ensure that the file does not keep taking up space in your computer’s memory and closes the file handler.
+
+Question 33 options:
+	
+A) 	
+file_close()
+
+	
+B) 	
+exit_file()
+
+	
+C) 	
+close_stream()
+
+	
+D) 	
+fclose()
+
+Save
+Question 34 (1 point) Question 34 Unsaved
+Because the fopen() function must be used with the ____ function, you can specify what type of operations can be performed on the file and where and how the data will be written.
+
+Question 34 options:
+	
+A) 	
+file_put_contents()
+
+	
+B) 	
+file_get_contents()
+
+	
+C) 	
+readfile()
+
+	
+D) 	
+fwrite()
+
+Save
+Question 35 (1 point) Question 35 Unsaved
+The operational constant of the flock() function that opens the file with an exclusive lock for writing is the ____.
+
+Question 35 options:
+	
+A) 	
+LOCK_EX
+
+	
+B) 	
+LOCK_SH
+
+	
+C) 	
+LOCK_NB
+
+	
+D) 	
+LOCK_UN
+
+Save
+Question 36 (1 point) Question 36 Unsaved
+Every time you use the ____ function, the file pointer moves to the next character in the file.
+
+Question 36 options:
+	
+A) 	
+fgetc()
+
+	
+B) 	
+fopen()
+
+	
+C) 	
+fclose()
+
+	
+D) 	
+fileread()
+
+Save
+Question 37 (1 point) Question 37 Unsaved
+What function returns a value of true when the file pointer reaches the end of the file?
+
+Question 37 options:
+	
+A) 	
+end_of_file()
+
+	
+B) 	
+feof()
+
+	
+C) 	
+eof()
+
+	
+D) 	
+file_end()
+
+Save
+Question 38 (1 point) Question 38 Unsaved
+The ____ function should be used before deleting files and directories to determine if the file or directory name exists.
+
+Question 38 options:
+	
+A) 	
+file_exists()
+
+	
+B) 	
+dir_exists()
+
+	
+C) 	
+file_dir_exists()
+
+	
+D) 	
+dir_file_exists()
+
+Save
+Question 39 (1 point) Question 39 Unsaved
+When you use a variable in a PHP program, you must be aware of the variable’s ____.
+
+Question 39 options:
+	
+A) 	
+placement
+
+	
+B) 	
+scope
+
+	
+C) 	
+function
+
+	
+D) 	
+statement
+
+Save
+Question 40 (1 point) Question 40 Unsaved
+With many programming languages, global variables are automatically available to all parts of your program, including ____.
+
+Question 40 options:
+	
+A) 	
+statements
+
+	
+B) 	
+definitions
+
+	
+C) 	
+functions
+
+	
+D) 	
+declarations
+
+Save
+
+Save All Responses 

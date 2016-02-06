@@ -1,0 +1,48 @@
+h1{
+	margin-bottom: 100px;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: 200px 200px;
+	box-shadow: 0 0 5px 5px #888;
+	background-color: black;
+	color: white;  
+}
+
+div img {
+	width: 100%;
+}
+
+div h3{
+	margin-top: -5px;  
+	text-align: center;
+	padding: 5px;
+}
+
+#div1 {
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+}
+
+#div2 {
+	transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+}
+
+#div3 {
+	transform: rotate(180deg);
+	-webkit-transform: rotate(-20deg);
+}
+
+#div1:hover, #div2:hover, #div3:hover{
+	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: scale(2);
+	-webkit-transform: scale(1.5);
+	z-index: 1; 
+	position:relative;
+}
+

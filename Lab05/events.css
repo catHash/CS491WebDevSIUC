@@ -1,0 +1,14 @@
+div.event{
+	background-color:rgb(23,55,94);
+	clear:both;
+	color:white;
+	padding:1px;
+	padding-left:5px;
+	margin:5px;
+}
+div.datetext{
+	float:left;
+	color:gray;
+	text-align:center;
+	min-width:80px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var fileName = "Fall2015_CS350_1.pdf"
+var test_file_names = ["Fall2015_CS350_1.pdf","Summer2015_CS412_940.pdf","Fall2012_CS221_1.pdf","Fall2013_CS391G_940.pdf"]
+for(x in test_file_names){
+	fileName = test_file_names[x]
+	fileName.trim()
+	document.write(fileName + "<br>")
+	var test = fileName.split("_")
+	for (i = test[0].length; i > 0; i--) {
+		if (!isNaN(test[0].charAt(i))) index_of_first_number = i
+	}
+	semester = test[0].substring(0,index_of_first_number)
+	year = test[0].substring(index_of_first_number,test[0].length)
+	for (i = 0; i < test[1].length; i++) {
+		if (!isNaN(test[1].charAt(i))) {index_of_first_number = i;break;}
+	}
+	program = test[1].substring(0,index_of_first_number)
+	course_number = test[1].substring(index_of_first_number,index_of_first_number+3)
+	var test = test[2].split(".")
+	filetype = test[1]
+	section = test[0]
+
+	document.write("Semester: " + semester + "<br>")
+	document.write("Year: " + year + "<br>")
+	document.write("Program: " + program + "<br>")
+	document.write("Course Number: " + course_number + "<br>")
+	document.write("Section: " + section + "<br>")
+	document.write("File Type: " + filetype + "<br>") 
+	document.write("<br>")
+}
+</script>
+</body>
+</html> 

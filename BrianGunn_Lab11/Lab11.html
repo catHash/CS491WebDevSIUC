@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/calendar.css">
+<script language="javascript" type="text/javascript" src="js/calendar.js"></script>
+<script language="javascript" type="text/javascript" src="js/task.js"></script>
+</head>
+<body onload="buildCalendar();setDate();">
+<div id="Wrapper" style="width:950px;">
+<div id="Left" style="size:50%;float:left;">
+<div id="TopLeft">
+<form>
+Day:<input type="number" min="1" max="31" name="day" id="myday" onchange="buildCalendar();"> 
+Month:
+<select name="month" id="mymonth" onclick="buildCalendar();" size="1">
+    <option value="0">January</option>
+    <option value="1">February</option>
+    <option value="2">March</option>
+    <option value="3">April</option>
+    <option value="4">May</option>
+    <option value="5">June</option>
+    <option value="6">July</option>
+    <option value="7">August</option>
+    <option value="8">September</option>
+    <option value="9">October</option>
+    <option value="10">November</option>
+    <option value="11">December</option>
+</select>
+Year:<input type="number" name="year" id="myyear" min="100" onchange="buildCalendar();">
+</form>
+</div>
+<div id="BottomLeft">
+</div>
+</div>
+<div id="Right" style="size:50%;float:right;">
+<div id="TopRight">
+Date: <input type="date" name="date" id="mydate"><br>
+Task: <input type="text" name="task" id="mytask">
+<button onclick="addTask()">Add Task</button>
+</div>
+<div id="BottomRight">
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+CS 350 / CS 491 Web Application Development
+Fall 2015
+Homework 0
+Brian Gunn
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+All student submissions should be individually written, not copied from sources. Submissions with
+excessive quoting of sources will have points deducted.
+
+1. For the following products, to what brand do you have access, what is its version number, and what is the
+latest available?
+a. Web Server
+This is very non-specific. "Web Server" could refer to hardware, software, or a combination of both. 
+At layer 7, we have different web server application software such as apache and node.js, ASP.NET, etc.
+At the hardware level, a web server is a computer that usually has redundant power supplies and network connections to provide redundancy and maximum uptime.
+b. JavaScript
+Modern browsers implement a javascript interpreter to provide dynamic client-side functionality.
+The latest revision of the JavaScript standard is ECMAScript 6.
+Javascript can be executed in any modern browser, such as mozilla firefox or google chrome.
+Node.js can be used with javascript to perform many tasks.
+The latest stable release of Node.js is 0.12.7
+c. PhP
+PHP is freely available. The latest stable version is 5.6.12
+Servlets are available on JavaEE 7. The most recevent version of the Servlet API is 3.1
+e. ASP.Net
+The stable release of ASP.NET is 4.5
+f. Ruby
+The stable release of Ruby is 2.2.3
+g. Rails
+The stable release of Ruby on Rails is 4.2.4, from 4 days ago!
+
+2. Search the web for information on the history of the following technologies, and write a brief overview
+of those histories.
+a. TCP/IP
+The development of TCP/IP was funded by DARPA, so it is also referred to as the DoD model. 
+Nowadays the TCP/IP protocol suite is standardized and maintained by the Interent Engineering Task Force (IETF).
+b. SGM
+Standard Generalized Markup Language (ISO 8879) is the standard that is extended to HTML and XML.
+SGML was standardized in 1986.
+c. HTML
+The most recent version of the HTML standard is HTML5.
+d. Arpanet
+The Advanced Research Projects Agency Network was a packet switching network funded by the United States Department of Defence.
+ARPANET provided the foundation for the creation of the internet.
+e. BITNET
+BITNET was a computer network for universities that functioned as a point-to-point network.
+To join the BITNET, a university needed to lease a phone line, buy modems, and allow other institutions to connect without a chargeback.
+f. XML
+Extensible Markup Language is a general purpose markup language defined by W3C.
+XML can be used 
+g. JavaScript
+JavaScript is a core technology of the web. JavaScript was originially implemented in Netscape Navigator, but is now supported by all modern browsers.
+h. Flash
+Adobe Flash was commonly used for streaming video, web games, and a variety of other applciations implemented in ActionScript.
+Flash has many features for animation. Use of adobe flash has largely declined.
+i. Servlets
+Java Servlets are used to implement web server features similar to PHP or ASP.NET on the Java platform.
+j. JSP
+JSP is very similar to PHP, except it uses the Java programming language. JSPs are translated to servlets at runtime.
+k. JSF
+JavaServer Faces is used to build user interfaces within web applications.
+l. Rails
+Ruby on Rails is a web application framework implemented with the Ruby programming language.
+Rails is under very active development and is a popular framework among silicon valley hipsters.
+m. Ajax
+AJAX stands for Asynchronous Javascript and XML. 
+AJAX is a group of technologies that allow webpages to be more dynamic and responsive without needing to refresh a static page. 
+AJAX can be used to query the DOM to dynamically update webpages.
+JQuery is a popular javascript framework that implements AJAX features.

@@ -1,0 +1,7 @@
+<style>
+	img {float:left;}
+	p{margin-left:25px;}
+	table{margin-left:25px;border-style:solid;}
+	p:hover {color:green;}
+	table:hover{color:blue;}
+</style>

@@ -1,0 +1,27 @@
+#div1 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-size: 200px 200px;
+	box-shadow: 0 0 5px 5px #888;
+	background-color: black;
+	color: white;  
+	transition: width 2s, background-color 3s;
+	-webkit-transition: width 2s, background-color 3s;
+}
+
+#div1 img {
+	width: 100%;
+}
+
+#div1 h3{
+	margin-top: -5px;  
+	text-align: center;
+	padding: 5px;
+}
+
+#div1:hover {
+	width: 600px;
+	height: 500px;
+	background-color: red;
+}

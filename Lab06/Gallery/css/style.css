@@ -1,0 +1,54 @@
+body {
+	background-color:#d9d6cb;
+}
+#title {
+	font-family:Agency FB;
+	text-align:center;
+	text-shadow: 5px 0px 5px #333;
+}
+#mygallery{
+	width:580px;
+	padding:20px;
+	margin:0 auto;
+	background-color:black;
+}
+#thumbimage{
+	list-style-type:none;
+	overflow:auto;
+}
+#fullimage{
+	list-style-type:none;
+	width:580px;
+	height:400px;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+#mygallery li.target {
+	animation-name: slideImage;
+    animation-duration: 0.5s;
+	transition: slideImage 0.5s;
+	-webkit-transition: slideImage 0.5s;
+}
+#thumbimage li {
+	position:relative;
+}
+#thumbimage li img{
+	width:50px;
+	float:right;
+	margin-left:5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:white;
+	opacity:0.5;
+}
+#thumbimage li img:hover{
+	opacity:1;
+}
+#fullimage li img{
+	width:580px;
+}
+@keyframes slideImage {
+	0%  {left:-700px;}
+	100%  {left:0px;}
+}

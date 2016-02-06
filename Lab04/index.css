@@ -1,0 +1,35 @@
+<style>
+ul.a {
+	list-style-type: circle;
+}
+#header {
+	width: 100%;
+	background-image: url("http://www.natcom.org/uploadedImages/More_Scholarly_Resources/Doctoral_Program_Resource_Guide/SIU%20Campus.jpg");
+	background-repeat: no-repeat;
+}
+.column1{
+	width:20%;
+	float: left;
+}
+.column2{
+	width:30%;
+	float: right;
+}
+#menu {
+}
+#links {
+}
+#contact {
+}
+#news {
+}
+#content {
+	display: inline-block;
+	width: 50%;
+}
+#footer{
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+</style>
